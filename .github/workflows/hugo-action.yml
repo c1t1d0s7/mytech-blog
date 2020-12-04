@@ -3,7 +3,7 @@ name: hugo github pages
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
+      - main
   pull_request:
     branches:
       - main
@@ -29,5 +29,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.HUGO_TOKEN }}
+          deploy_key: ${{ secrets.HUGO_ACTIONS_DEPLOY_KEY }}
+          external_repository: c1t1d0s7/c1t1d0s7.github.io
+          publish_branch: main
           publish_dir: ./public
