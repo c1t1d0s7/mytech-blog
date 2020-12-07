@@ -341,7 +341,7 @@ This text is **_really important_**.
 1.  Open the file containing the Linux mascot.
 2.  Marvel at its beauty.
 
-    ![Tux, the Linux mascot](./img/tux.png)
+    ![Tux, the Linux mascot](/img/tux.png)
 
 3.  Close the file.
 ```
@@ -349,7 +349,7 @@ This text is **_really important_**.
 1.  Open the file containing the Linux mascot.
 2.  Marvel at its beauty.
 
-    ![Tux, the Linux mascot](./img/tux.png)
+    ![Tux, the Linux mascot](/img/tux.png)
 
 3.  Close the file.
 
@@ -421,18 +421,18 @@ _____
 ### 11. 이미지(Images)  
 #### - 마크다운  
 ```txt
-![Tux, the Linux mascot](./img/tux.png)
+![Tux, the Linux mascot](/img/tux.png)
 ```
 #### - 렌더링된 출력  
-![Tux, the Linux mascot](./img/tux.png)
+![Tux, the Linux mascot](/img/tux.png)
 
 ### 11-1. 링크된 이미지(Linking Images)  
 #### - 마크다운  
 ```txt
-[![Tux, the Linux mascot](./img/tux.png "Tux, as originally drawn as raster image by Larry Ewing in 1996.")](https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png)
+[![Tux, the Linux mascot](/img/tux.png "Tux, as originally drawn as raster image by Larry Ewing in 1996.")](https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png)
 ```
 #### - 렌더링된 출력  
-[![Tux, the Linux mascot](./img/tux.png "Tux, as originally drawn as raster image by Larry Ewing in 1996.")](https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png)
+[![Tux, the Linux mascot](/img/tux.png "Tux, as originally drawn as raster image by Larry Ewing in 1996.")](https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png)
 
 ### 12. 탈출 문자(Escaping Characters)  
 마크다운에서 서식을 지정하는데 사용되는 특수문자를 백슬레쉬(\\)를 이용하여 글자 그대로 표현할 수 있다.  
